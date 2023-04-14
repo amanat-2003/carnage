@@ -32,7 +32,7 @@ from time import sleep
 
 chrome_options = Options()
 chrome_options.add_argument('--log-level=3')
-chrome_options.headless = False
+chrome_options.headless = True
 Path = "Database\\chromedriver.exe"
 driver = webdriver.Chrome(Path, options=chrome_options)
 driver.maximize_window()

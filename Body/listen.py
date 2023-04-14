@@ -34,5 +34,3 @@ def ListenAndPrint():
     data = Translation(query)
     print(f'You: {data}')
     return data
-
-ListenAndPrint()
