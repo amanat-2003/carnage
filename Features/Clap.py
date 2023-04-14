@@ -2,7 +2,7 @@ import pyaudio
 import struct
 import math
 
-INITIAL_TAP_THRESHOLD = 0.01 # 0.01 - 1.5
+INITIAL_TAP_THRESHOLD = 0.1 # 0.01 - 1.5
 FORMAT = pyaudio.paInt16 
 SHORT_NORMALIZE = (1.0/32768.0)
 CHANNELS = 2
@@ -84,7 +84,7 @@ class TapTester(object):
             self.noisycount += 1
             if self.noisycount > OVERSENSITIVE:
 
-                self.tap_threshold *= 1.1
+                self.tap_threshold *= 2
         else:            
 
             if 1 <= self.noisycount <= MAX_TAP_BLOCKS:
