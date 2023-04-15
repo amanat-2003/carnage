@@ -1,8 +1,9 @@
 import pyaudio
 import struct
 import math
+import os
 
-INITIAL_TAP_THRESHOLD = 0.1 # 0.01 - 1.5
+INITIAL_TAP_THRESHOLD = 0.1 #0.01 - 1.5
 FORMAT = pyaudio.paInt16 
 SHORT_NORMALIZE = (1.0/32768.0)
 CHANNELS = 2
@@ -84,7 +85,7 @@ class TapTester(object):
             self.noisycount += 1
             if self.noisycount > OVERSENSITIVE:
 
-                self.tap_threshold *= 2
+                self.tap_threshold *= 1.1
         else:            
 
             if 1 <= self.noisycount <= MAX_TAP_BLOCKS:
@@ -100,8 +101,10 @@ def Tester():
 
     while True:
         kk = tt.listen()
+        
         if "True-Mic" == kk:
             print("")
-            print(">Clap Detected: Carnage starting")
+            print("> Clap Detected : Starting The Jarvis.")
             print("")
-            break
+            return "True-Mic"
+        
