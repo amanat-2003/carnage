@@ -1,5 +1,5 @@
-from Body.Listen import ListenTranslatePrint
-from Body.Speak import Speak
+from Body.listen import ListenTranslatePrint
+from Body.speak import Speak
 from Features.Clap import Tester
 
 def Main():
