@@ -18,6 +18,7 @@ def Listen():
         return ""
 
     query = str(query).lower()
+    print(f"Punjabi: {query}")
     return query
 
 # Translation
@@ -29,7 +30,7 @@ def Translation(text):
     return data
 
 # Complete Function
-def ListenAndPrint():
+def ListenTranslatePrint():
     query = Listen()
     data = Translation(query)
     print(f'You: {data}')
