@@ -1,6 +1,8 @@
 .vscode/
 tempCodeRunnerFile.py
 userdata/
+Database/chat_log.txt
+Database/Tasks.pth
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
