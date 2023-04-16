@@ -1,6 +1,6 @@
 .vscode/
 tempCodeRunnerFile.py
-
+userdata/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
