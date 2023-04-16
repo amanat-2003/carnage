@@ -19,7 +19,7 @@ def ReplyBrain(question, chat_log=None):
 
     if chat_log is None:
         chat_log = chat_log_template
-        prompt = f'{chat_log}You: {question}\nAI: '
+        prompt = f'{chat_log}You: {question}\nCarnage: '
         response = completion.create(
             model="text-davinci-002",
             prompt=prompt,
@@ -30,7 +30,7 @@ def ReplyBrain(question, chat_log=None):
             presence_penalty=0)
         answer = response.choices[0].text.strip()
         chat_log_template_update = chat_log_template + \
-            f"\nYou: {question} \nAI: {answer}"
+            f"\nYou: {question} \nCarnage: {answer}"
         FileLog = open("Database/chat_log.txt", "w")
         FileLog.write(chat_log_template_update)
         FileLog.close()
