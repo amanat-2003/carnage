@@ -37,3 +37,11 @@ Question: A moving object slows down its motion from 12m/s to rest at a distance
 Answer: The object's acceleration is -0.6 m/s2.
 Question: A bullet leaves the muzzle of an 84-cm rifle with a speed of 521 m/s. Find the magnitude of the bullet's acceleration by assuming it is constant inside the barrel of the rifle 
 Answer: The bullet's acceleration is 9800 m/s2.
+Question: what is his age 
+Answer: This question is impossible to answer without more information.
+Question: what is police age 
+Answer: This question is impossible to answer without more information.
+Question: what is the age of virat kohli 
+Answer: Virat Kohli is 30 years old.
+Question: what is chat gpt 
+Answer: Chat GPT is a chatbot that uses the GPT-3 algorithm to generate responses to user queries.

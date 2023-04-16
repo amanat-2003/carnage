@@ -41,7 +41,7 @@ def TranslationHinToEng(Text):
     translate = Translator()
     result = translate.translate(line)
     data = result.text
-    print(f"You : {data}.")
+    print(f"You : {data}")
     return data
 
 # 3 - Connect

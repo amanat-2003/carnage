@@ -7,6 +7,9 @@ import torch
 import numpy as np 
 import random
 
+from Features.Open import OpenExe
+from Whatsapp import WhatsappSender
+
 def TrainTasks():
 
     class NeuralNet(nn.Module):
@@ -226,4 +229,24 @@ def TasksExecutor(query):
                 
                 return reply
 
-print(TasksExecutor("Send Message to MMA Ji"))
+def MainTaskExecution(Query):
+    Task = str(Query).lower()
+    TaskNew = str(Query).lower()
+    ReturnData = TasksExecutor(Task)
+
+    try:
+        if "open" in ReturnData:
+            Value = OpenExe(TaskNew)
+            return Value
+
+        elif "whatsapp" in ReturnData:
+            Namen = str(TaskNew).replace("send ","")
+            Namen = str(Namen).replace("whatsapp ","")
+            Namen = str(Namen).replace("message ","")
+            Namen = str(Namen).replace("to ","")
+            WhatsappSender(Namen)
+            return True
+
+    except:
+        pass
+    
