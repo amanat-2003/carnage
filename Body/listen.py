@@ -26,7 +26,7 @@ def Listen():
     
     try:
         print("Recognizing...")
-        query = r.recognize_google(audio,language="pa")
+        query = r.recognize_google(audio,language="en")
 
     except:
         return ""

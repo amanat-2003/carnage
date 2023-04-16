@@ -1,0 +1,39 @@
+
+Question: What is physics 
+Answer: Physics is the study of the fundamental principles governing the natural world. It is a branch of science that explores the nature and properties of matter and energy.
+Question: what is chemistry? 
+Answer: Chemistry is the study of the composition, structure, and properties of matter, as well as the changes it undergoes during chemical reactions.
+Question: what is maths? 
+Answer: Maths is the study of numbers, shapes and patterns. It is used to solve problems in a wide range of areas, from engineering to medicine.
+Question: What is NNN? 
+Answer: NNN is not a branch of science.
+Question: what is nn? in field of Data Science 
+Answer: NN is a branch of data science that deals with the structure and properties of neural networks.
+Question: Kinematics 
+Answer: Kinematics is the study of motion. It is a branch of physics that investigates the movement of objects without considering the forces that cause them to move.
+Question: What is C++ 
+Answer: C++ is a programming language that enables developers to create software with complex functionality. It is often used in applications where speed and efficiency are critical, such as video games and operating systems.
+Question: C++ vs Python 
+Answer: C++ is a programming language that enables developers to create software with complex functionality. It is often used in applications where speed and efficiency are critical, such as video games and operating systems. Python is a programming language that is designed to be easy to read and write. It is often used in applications where simplicity is more important than speed, such as web development.
+Question: What is ESP32 
+Answer: ESP32 is a low-cost, low-power microcontroller with built-in WiFi and Bluetooth connectivity. It is often used in IoT applications.
+Question: What is IOT? 
+Answer: IOT stands for Internet of Things. It is a network of physical devices, vehicles, home appliances, and other items that are embedded with electronics, software, sensors, and connectivity tools that enable these objects to connect and exchange data.
+Question: What is the value of e charge? 
+Answer: The value of e charge is 1.602 x 10-19 coulombs.
+Question: coulomb 
+Answer: A coulomb is a unit of electric charge.
+Question: Can velocity be negative? 
+Answer: Yes, velocity can be negative. Velocity is a vector quantity, which means it has both magnitude and direction. This means that the velocity of an object can be positive or negative, depending on the direction of travel.
+Question:  A car slows down its motion from 10 m/s to 6 m/s in 2 seconds under constant acceleration.  
+Answer: The car's acceleration is 2 m/s2.
+Question: (a) What is its acceleration? 
+Answer: The car's acceleration is 2 m/s2.
+Question: (b) How far did the car travel during this time interval? 
+Answer: The car traveled a total of 20 meters during the time interval.
+Question: When will it stop? 
+Answer: The car will stop when it reaches a velocity of 0 m/s.
+Question: A moving object slows down its motion from 12m/s to rest at a distance of 20 m. Find the acceleration of the object (assumed constant). 
+Answer: The object's acceleration is -0.6 m/s2.
+Question: A bullet leaves the muzzle of an 84-cm rifle with a speed of 521 m/s. Find the magnitude of the bullet's acceleration by assuming it is constant inside the barrel of the rifle 
+Answer: The bullet's acceleration is 9800 m/s2.
