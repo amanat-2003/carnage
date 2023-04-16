@@ -9,19 +9,23 @@ print('>> Starting the Carnage : Wait for few seconds more')
 
 def MainExecution():
 
-    Speak("Hello, Ammaanat. How are you?")
+    Speak("Hello, Ammanat")
     sleep(3)
     Speak("I'm Carnage, I'm ready to assist you sir.")
     while True:
         Data = MicExecution()
         Data = str(Data)
-        if len(Data) <= 3:
+        if len(Data) < 3:
             continue
+        elif "turn on the tv" in Data: # Specific Command
+            Speak("Ok.. Turning on the Andoid TV")
+
         elif "what is" in Data or "where is" in Data or "question" in Data or "answer" in Data: 
             Reply = QuestionsAnswer(Data)
+            Speak(Reply)
         else:
             Reply = ReplyBrain(Data)
-        Speak(Reply)
+            Speak(Reply)
 
 def ClapDetect():
     query = Tester()
