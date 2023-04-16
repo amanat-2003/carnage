@@ -26,7 +26,7 @@ def Listen():
     
     try:
         print("Recognizing...")
-        query = r.recognize_google(audio,language="hi")
+        query = r.recognize_google(audio,language="pa")
 
     except:
         return ""
@@ -50,5 +50,3 @@ def MicExecution():
     query = Listen()
     data = TranslationHinToEng(query)
     return data
-
-MicExecution()

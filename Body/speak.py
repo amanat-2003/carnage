@@ -51,7 +51,7 @@ def Speak(Text):
 
     else:
         print("")
-        print(f"AI : {Text}.")
+        print(f"Carnage : {Text}")
         print("")
         Data = str(Text)
         xpathofsec = '/html/body/div[4]/div[2]/form/textarea'

@@ -104,7 +104,7 @@ def Tester():
         
         if "True-Mic" == kk:
             print("")
-            print("> Clap Detected : Starting The Jarvis.")
+            print("> Clap Detected : Starting The Carnage.")
             print("")
             return "True-Mic"
         
